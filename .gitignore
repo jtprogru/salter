@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/jetbrains+all,vim,vscode,python,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=jetbrains+all,vim,vscode,python,macos
+# Created by https://www.toptal.com/developers/gitignore/api/jetbrains+all,vim,vscode,python,macos,vagrant
+# Edit at https://www.toptal.com/developers/gitignore?templates=jetbrains+all,vim,vscode,python,macos,vagrant
 
 ### JetBrains+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -260,6 +260,16 @@ dmypy.json
 # profiling data
 .prof
 
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
 ### Vim ###
 # Swap
 [._]*.s[a-v][a-z]
@@ -289,4 +299,4 @@ tags
 !.vscode/extensions.json
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,vim,vscode,python,macos
+# End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,vim,vscode,python,macos,vagrant
