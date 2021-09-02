@@ -1,0 +1,14 @@
+syntax on
+set number
+set expandtab
+set tabstop=4
+set enc=utf-8
+set guicursor=n-v-c:block-Cursor
+set hlsearch
+set incsearch
+let python_highlight_all=1
+set shell=/bin/bash
+set background=dark
+set guicursor=n-v-c:block-Cursor
+set backspace=indent,eol,start
+set ruler

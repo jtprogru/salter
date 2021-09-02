@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  os = "generic/ubuntu2004"
+  os = "ubuntu/focal64"
   net_ip = "192.168.50"
 
   config.vm.define :master, primary: true do |master_config|

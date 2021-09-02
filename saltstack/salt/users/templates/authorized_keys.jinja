@@ -1,0 +1,3 @@
+{% for key in salt['pillar.get']('users:' + user + ':ssh_auth_keys') -%}
+{{ key }}
+{% endfor %}
